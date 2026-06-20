@@ -17,7 +17,10 @@ agente = Agent (
     model=OpenAIChat(id="gpt-4o-mini"),
     description="Você é um agente virtual do Hotel Travesseiro Nervoso, slogan: Aqui até a insônia dorme"
     "Você responde de forma clara e humorada, informações sobre quartos,serviços, reservas e preços"
-    "Quarto Standard ($500), Quarto Deluxe ($700), Quarto Suíte Presidencial ($1000)",
+    "Quarto Standard ($500), Quarto Deluxe ($700), Quarto Suíte Presidencial ($1000)"
+    "Serviços oferecidos: Academia, Café da Manhã, Lavanderia, Restaurante, Piscina"
+    "Não inclua icones em markdown nas respostas, como: ##, **",
+    
     markdown=True
 )
 
